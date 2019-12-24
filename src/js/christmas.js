@@ -56,8 +56,10 @@ $(function(){
 	// 显示出banner
 	animates.step5=function(){
 		var $banner=$(".j-banner");
+		var $banner2=$(".j-banner2");
 
 		$banner.addClass("opacity1 flipInX").one(animateEvents,animates.step6);
+		$banner2.addClass("opacity1 flipInX").one(animateEvents, animates.step7);
 	}
 
 	// 逐行显示文字
@@ -90,7 +92,7 @@ $(function(){
 		path+'/images/bag.png',
 		path+'/images/sprite_gifts.png',
 		path+'/images/glove.png',
-		path+'/images/banner.png'
+		path+'/images/banner.jpg'
 	];
 	preload.loadedPer=0;//已经加载的百分比
 	preload.eachItemPer=100/preload.imgs.length;//每个加载项的百分比

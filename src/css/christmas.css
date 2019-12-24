@@ -129,7 +129,7 @@ input{outline:none;-webkit-appearance : none ;}
 	width:100px;
 	height: 30px;
 	line-height: 30px;
-	background: #ffaa00;
+	background: #ff3e0e;
 	color: #fff;
 	text-align: center;
 	border-radius:5px;
@@ -248,7 +248,18 @@ input{outline:none;-webkit-appearance : none ;}
 	margin-left:-130px;
 	width: 259px;
 	height: 155px;
-	background: url(../images/banner.png) no-repeat;
+	background: url(../images/banner.jpg) no-repeat;
+	background-size:259px auto;
+	z-index: 11;
+}
+.banner-panel2{
+	position: absolute;
+	left:50%;
+	top:35%;
+	margin-left:-130px;
+	width: 259px;
+	height: 155px;
+	background: url(../images/elsa.jpg) no-repeat;
 	background-size:259px auto;
 	z-index: 11;
 }
